@@ -1,0 +1,11 @@
+C:\Users\Emanuelle Fonseca\documents\visual studio 2010\Projects\Brazilian Sound Vinil\Brazilian Sound Vinil\bin\Release\Brazilian Sound Vinil.exe
+C:\Users\Emanuelle Fonseca\documents\visual studio 2010\Projects\Brazilian Sound Vinil\Brazilian Sound Vinil\bin\Release\Brazilian Sound Vinil.pdb
+C:\Users\Emanuelle Fonseca\documents\visual studio 2010\Projects\Brazilian Sound Vinil\Brazilian Sound Vinil\obj\x86\Release\Brazilian Sound Vinil.csprojResolveAssemblyReference.cache
+C:\Users\Emanuelle Fonseca\documents\visual studio 2010\Projects\Brazilian Sound Vinil\Brazilian Sound Vinil\obj\x86\Release\Brazilian_Sound_Vinil.Adicionar.resources
+C:\Users\Emanuelle Fonseca\documents\visual studio 2010\Projects\Brazilian Sound Vinil\Brazilian Sound Vinil\obj\x86\Release\Brazilian_Sound_Vinil.FormVenda.resources
+C:\Users\Emanuelle Fonseca\documents\visual studio 2010\Projects\Brazilian Sound Vinil\Brazilian Sound Vinil\obj\x86\Release\Brazilian_Sound_Vinil.BuscaVinil.resources
+C:\Users\Emanuelle Fonseca\documents\visual studio 2010\Projects\Brazilian Sound Vinil\Brazilian Sound Vinil\obj\x86\Release\Brazilian_Sound_Vinil.Login.resources
+C:\Users\Emanuelle Fonseca\documents\visual studio 2010\Projects\Brazilian Sound Vinil\Brazilian Sound Vinil\obj\x86\Release\Brazilian_Sound_Vinil.Properties.Resources.resources
+C:\Users\Emanuelle Fonseca\documents\visual studio 2010\Projects\Brazilian Sound Vinil\Brazilian Sound Vinil\obj\x86\Release\Brazilian Sound Vinil.csproj.GenerateResource.Cache
+C:\Users\Emanuelle Fonseca\documents\visual studio 2010\Projects\Brazilian Sound Vinil\Brazilian Sound Vinil\obj\x86\Release\Brazilian Sound Vinil.exe
+C:\Users\Emanuelle Fonseca\documents\visual studio 2010\Projects\Brazilian Sound Vinil\Brazilian Sound Vinil\obj\x86\Release\Brazilian Sound Vinil.pdb

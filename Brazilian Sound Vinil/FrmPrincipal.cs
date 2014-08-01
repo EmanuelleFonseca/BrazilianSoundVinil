@@ -34,9 +34,9 @@ namespace Brazilian_Sound_Vinil
                     Application.OpenForms[intIndex].Close();
             }
 
-            Venda add = new Venda();
-            add.MdiParent = this;
-            add.Show();
+            Venda venda = new Venda();
+            venda.MdiParent = this;
+            venda.Show();
             
         }
 

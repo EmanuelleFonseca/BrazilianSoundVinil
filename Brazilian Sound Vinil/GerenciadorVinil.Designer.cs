@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BuscaVinil));
             this.lblTitulo = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lblAutor = new System.Windows.Forms.Label();
@@ -45,71 +46,79 @@
             // lblTitulo
             // 
             this.lblTitulo.AutoSize = true;
+            this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitulo.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.Location = new System.Drawing.Point(26, 52);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(38, 13);
+            this.lblTitulo.Size = new System.Drawing.Size(71, 27);
             this.lblTitulo.TabIndex = 1;
             this.lblTitulo.Text = "Título:";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(107, 45);
+            this.textBox1.Location = new System.Drawing.Point(107, 52);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(373, 20);
+            this.textBox1.Size = new System.Drawing.Size(744, 20);
             this.textBox1.TabIndex = 2;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // lblAutor
             // 
             this.lblAutor.AutoSize = true;
+            this.lblAutor.BackColor = System.Drawing.Color.Transparent;
+            this.lblAutor.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAutor.Location = new System.Drawing.Point(26, 80);
             this.lblAutor.Name = "lblAutor";
-            this.lblAutor.Size = new System.Drawing.Size(77, 13);
+            this.lblAutor.Size = new System.Drawing.Size(139, 27);
             this.lblAutor.TabIndex = 3;
             this.lblAutor.Text = "Banda/Cantor:";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(107, 80);
+            this.textBox2.Location = new System.Drawing.Point(171, 80);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(373, 20);
+            this.textBox2.Size = new System.Drawing.Size(680, 20);
             this.textBox2.TabIndex = 4;
             // 
             // lblGravadora
             // 
             this.lblGravadora.AutoSize = true;
-            this.lblGravadora.Location = new System.Drawing.Point(554, 52);
+            this.lblGravadora.BackColor = System.Drawing.Color.Transparent;
+            this.lblGravadora.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGravadora.Location = new System.Drawing.Point(26, 107);
             this.lblGravadora.Name = "lblGravadora";
-            this.lblGravadora.Size = new System.Drawing.Size(60, 13);
+            this.lblGravadora.Size = new System.Drawing.Size(106, 27);
             this.lblGravadora.TabIndex = 5;
             this.lblGravadora.Text = "Gravadora:";
             // 
             // lblAno
             // 
             this.lblAno.AutoSize = true;
-            this.lblAno.Location = new System.Drawing.Point(554, 80);
+            this.lblAno.BackColor = System.Drawing.Color.Transparent;
+            this.lblAno.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAno.Location = new System.Drawing.Point(26, 134);
             this.lblAno.Name = "lblAno";
-            this.lblAno.Size = new System.Drawing.Size(29, 13);
+            this.lblAno.Size = new System.Drawing.Size(50, 27);
             this.lblAno.TabIndex = 6;
             this.lblAno.Text = "Ano:";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(620, 45);
+            this.textBox3.Location = new System.Drawing.Point(138, 112);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(380, 20);
+            this.textBox3.Size = new System.Drawing.Size(713, 20);
             this.textBox3.TabIndex = 7;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(620, 80);
+            this.textBox4.Location = new System.Drawing.Point(79, 138);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(380, 20);
+            this.textBox4.Size = new System.Drawing.Size(86, 20);
             this.textBox4.TabIndex = 8;
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(451, 126);
+            this.btnBuscar.Location = new System.Drawing.Point(659, 170);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(75, 23);
             this.btnBuscar.TabIndex = 9;
@@ -118,7 +127,7 @@
             // 
             // btnLimpar
             // 
-            this.btnLimpar.Location = new System.Drawing.Point(557, 126);
+            this.btnLimpar.Location = new System.Drawing.Point(752, 170);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(99, 23);
             this.btnLimpar.TabIndex = 10;
@@ -127,17 +136,19 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(29, 172);
+            this.dataGridView1.Location = new System.Drawing.Point(29, 206);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(971, 183);
+            this.dataGridView1.Size = new System.Drawing.Size(822, 440);
             this.dataGridView1.TabIndex = 11;
             // 
             // BuscaVinil
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1035, 367);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(863, 658);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnBuscar);

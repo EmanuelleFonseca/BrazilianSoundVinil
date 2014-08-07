@@ -15,7 +15,25 @@ namespace Brazilian_Sound_Vinil
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmPrincipal());
+
+            //instância do formulário login
+            Login login = new Login();
+
+            //Se o resultado do dialogo for ok
+            //ou seja se o usuario e login constarem no bd
+            if (login.ShowDialog() == DialogResult.OK)
+            {
+                //abro o formulário principal
+                Application.Run(new FrmPrincipal());
+            }
+
+            else
+            {   
+                //Se não mostro a mensagem
+                MessageBox.Show("Usuário ou Login inválidos!");
+                
+            }
+            
         }
     }
 }

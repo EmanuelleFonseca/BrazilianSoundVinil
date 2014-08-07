@@ -61,9 +61,9 @@ namespace Brazilian_Sound_Vinil
                     Application.OpenForms[intIndex].Close();
             }
 
-            BuscaVinil add = new BuscaVinil();
-            add.MdiParent = this;
-            add.Show();
+            BuscaVinil busca = new BuscaVinil();
+            busca.MdiParent = this;
+            busca.Show();
         }
     }
 }

@@ -5,7 +5,9 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Windows;
 using System.Windows.Forms;
+
 using System.Security;	
 
 namespace Brazilian_Sound_Vinil
@@ -48,7 +50,7 @@ namespace Brazilian_Sound_Vinil
                     {
                         String arquivo = ofd1.FileName; // obtem o diretorio.
 
-                        txtCapa.Text += arquivo; 
+                        txtCapa.Text = arquivo; 
                         PictureBox pb = new PictureBox();
                         Image Imagem = Image.FromFile(arquivo);
                         pb.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -57,7 +59,10 @@ namespace Brazilian_Sound_Vinil
                         //atribui a imagem ao PictureBox - pb
                         pb.Image = Imagem;
                         //inclui a imagem no containter flowLayoutPanel
-                        flowLayoutPanel1.Controls.Add(pb);
+                        panel1.Controls.Add(pb);
+                        btnUpload.Enabled = false;
+                        
+                        
                     }
                     catch (SecurityException ex)
                     {

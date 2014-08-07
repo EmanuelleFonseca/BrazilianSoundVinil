@@ -49,8 +49,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.ofd1 = new System.Windows.Forms.OpenFileDialog();
             this.btnUpload = new System.Windows.Forms.Button();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.txtCapa = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // label1
@@ -234,14 +234,6 @@
             this.btnUpload.UseVisualStyleBackColor = true;
             this.btnUpload.Click += new System.EventHandler(this.btnUpload_Click);
             // 
-            // flowLayoutPanel1
-            // 
-            this.flowLayoutPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel1.BackgroundImage")));
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(721, 118);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(130, 136);
-            this.flowLayoutPanel1.TabIndex = 23;
-            // 
             // txtCapa
             // 
             this.txtCapa.Location = new System.Drawing.Point(156, 122);
@@ -249,14 +241,22 @@
             this.txtCapa.Size = new System.Drawing.Size(432, 20);
             this.txtCapa.TabIndex = 24;
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Location = new System.Drawing.Point(721, 122);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(130, 132);
+            this.panel1.TabIndex = 25;
+            // 
             // Adicionar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(863, 658);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.txtCapa);
-            this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.btnUpload);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -308,7 +308,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.OpenFileDialog ofd1;
         private System.Windows.Forms.Button btnUpload;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.TextBox txtCapa;
+        private System.Windows.Forms.Panel panel1;
     }
 }

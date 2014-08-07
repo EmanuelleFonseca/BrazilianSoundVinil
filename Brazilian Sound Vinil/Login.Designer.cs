@@ -39,9 +39,11 @@
             // lblCod
             // 
             this.lblCod.AutoSize = true;
-            this.lblCod.Location = new System.Drawing.Point(12, 48);
+            this.lblCod.BackColor = System.Drawing.Color.Transparent;
+            this.lblCod.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold);
+            this.lblCod.Location = new System.Drawing.Point(12, 69);
             this.lblCod.Name = "lblCod";
-            this.lblCod.Size = new System.Drawing.Size(43, 13);
+            this.lblCod.Size = new System.Drawing.Size(72, 27);
             this.lblCod.TabIndex = 0;
             this.lblCod.Text = "Código:";
             this.lblCod.Click += new System.EventHandler(this.label1_Click);
@@ -49,33 +51,37 @@
             // lblSenha
             // 
             this.lblSenha.AutoSize = true;
-            this.lblSenha.Location = new System.Drawing.Point(12, 114);
+            this.lblSenha.BackColor = System.Drawing.Color.Transparent;
+            this.lblSenha.Font = new System.Drawing.Font("Segoe Script", 12F, System.Drawing.FontStyle.Bold);
+            this.lblSenha.Location = new System.Drawing.Point(12, 163);
             this.lblSenha.Name = "lblSenha";
-            this.lblSenha.Size = new System.Drawing.Size(41, 13);
+            this.lblSenha.Size = new System.Drawing.Size(70, 27);
             this.lblSenha.TabIndex = 1;
             this.lblSenha.Text = "Senha:";
             this.lblSenha.Click += new System.EventHandler(this.label2_Click);
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(73, 170);
+            this.btnLogin.Location = new System.Drawing.Point(97, 263);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(95, 23);
             this.btnLogin.TabIndex = 2;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // txtCod
             // 
-            this.txtCod.Location = new System.Drawing.Point(73, 41);
+            this.txtCod.Location = new System.Drawing.Point(97, 74);
             this.txtCod.Name = "txtCod";
             this.txtCod.Size = new System.Drawing.Size(169, 20);
             this.txtCod.TabIndex = 4;
             // 
             // txtSenha
             // 
-            this.txtSenha.Location = new System.Drawing.Point(73, 111);
+            this.txtSenha.Location = new System.Drawing.Point(97, 169);
             this.txtSenha.Name = "txtSenha";
+            this.txtSenha.PasswordChar = '*';
             this.txtSenha.Size = new System.Drawing.Size(169, 20);
             this.txtSenha.TabIndex = 5;
             // 
@@ -84,14 +90,16 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(456, 273);
+            this.ClientSize = new System.Drawing.Size(584, 412);
             this.Controls.Add(this.txtSenha);
             this.Controls.Add(this.txtCod);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.lblSenha);
             this.Controls.Add(this.lblCod);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Login";
-            this.Text = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Sistema de Gerenciamento - Login";
             this.ResumeLayout(false);
             this.PerformLayout();
 
